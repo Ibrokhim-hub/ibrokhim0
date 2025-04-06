@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link" data-en="About Me" data-ru="Обо мне">About Me</a></li>
+                <li><a href="#home" class="nav-link" data-en="Home" data-ru="Главная">Home</a></li>
+                <li><a href="#projects" class="nav-link" data-en="Projects" data-ru="Проекты">Projects</a></li>
+                <li><a href="#services" class="nav-link" data-en="Services" data-ru="Услуги">Services</a></li>
+                <li><a href="#skills" class="nav-link" data-en="Skills" data-ru="Навыки">Skills</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-ru="Контакты">Contact</a></li>
+            </ul>
+            <button id="lang-toggle" class="lang-btn">RU</button>
+        </nav>
+    </header>
+    
+    <section id="home" class="section">
+        <div class="section-title">
+            <h1 class="lang-text" data-en="Welcome to My Portfolio" data-ru="Добро пожаловать в моё портфолио">
+                <span class="typing-text">Welcome to My Portfolio</span>
+            </h1>
+        </div>
+    </section>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-content">
+                <img src="img/profile.jpeg" alt="My Photo" class="about-img">
+                <div class="about-text">
+                    <h2 class="lang-text" data-en="About Me" data-ru="Обо мне">About Me</h2>
+                    <p class="lang-text" data-en="Thank you for taking the time to check out my work! I love foreign music, a tea addict." data-ru="Спасибо, что уделили время, чтобы ознакомиться с моей работой! Я люблю иностранную музыку, обожаю чай.">Thank you for taking the time to check out my work! I love foreign music, a tea addict.</p>
+                    <p class="lang-text" data-en="I am a 15-year-old passionate web developer with a deep love for coding and innovation. I started programming at the age of 14, diving into the world of technology with endless curiosity. Since then, I have been constantly improving my skills, creating unique and dynamic web projects." data-ru="Я 15-летний увлечённый веб-разработчик с глубокой любовью к программированию и инновациям. Я начал программировать в 14 лет, погрузившись в мир технологий с бесконечным любопытством. С тех пор я постоянно совершенствую свои навыки, создавая уникальные и динамичные веб-проекты.">I am a 15-year-old passionate web developer with a deep love for coding and innovation. I started programming at the age of 14, diving into the world of technology with endless curiosity. Since then, I have been constantly improving my skills, creating unique and dynamic web projects.</p>
+                    <a href="#" class="btn lang-text" data-en="FULL BIO" data-ru="ПОЛНАЯ БИОГРАФИЯ">FULL BIO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="section-title">
+            <h2 class="lang-text" data-en="Projects" data-ru="Проекты">Projects</h2>
+        </div>
+        <div class="section-content">
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="img/auto.png" alt="AutoParts Hub">
+                    <h3 class="lang-text" data-en="AutoParts Hub" data-ru="AutoParts Hub">AutoParts Hub</h3>
+                    <p class="lang-text" data-en="Website for finding and ordering auto parts." data-ru="Веб-сайт для поиска и заказа автозапчастей.">Website for finding and ordering auto parts.</p>
+                </div>
+                <div class="project-card">
+                    <img src="img/shop.png" alt="OrderFlow">
+                    <h3 class="lang-text" data-en="OrderFlow" data-ru="OrderFlow">OrderFlow</h3>
+                    <p class="lang-text" data-en="Online order management system like Lamoda." data-ru="Система управления онлайн-заказами, подобная Lamoda.">Online order management system like Lamoda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="section">
+        <div class="section-title">
+            <h2 class="lang-text" data-en="Services" data-ru="Услуги">Services</h2>
+        </div>
+        <div class="section-content">
+            <div class="services-container">
+                <div class="service-card">
+                    <img src="img/webdev.png" alt="Web Development">
+                    <h3 class="lang-text" data-en="Web Development" data-ru="Веб-разработка">Web Development</h3>
+                    <p class="lang-text" data-en="Creating responsive and modern websites tailored to your needs." data-ru="Создание адаптивных и современных веб-сайтов, соответствующих вашим потребностям.">Creating responsive and modern websites tailored to your needs.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img/uiux.png" alt="UI/UX Design">
+                    <h3 class="lang-text" data-en="UI/UX Design" data-ru="UI/UX Дизайн">UI/UX Design</h3>
+                    <p class="lang-text" data-en="Designing intuitive and user-friendly interfaces." data-ru="Разработка интуитивно понятных и удобных интерфейсов.">Designing intuitive and user-friendly interfaces.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img/consulting.png" alt="Tech Consulting">
+                    <h3 class="lang-text" data-en="Tech Consulting" data-ru="Техническое консультирование">Tech Consulting</h3>
+                    <p class="lang-text" data-en="Providing expert advice on tech solutions and development." data-ru="Предоставление экспертных советов по техническим решениям и разработке.">Providing expert advice on tech solutions and development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="lang-text" data-en="My Skills" data-ru="Мои навыки">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3 class="lang-text" data-en="HTML & CSS" data-ru="HTML и CSS">HTML & CSS</h3>
+                    <div class="skill-bar">
+                        <span class="filled"></span>
+                        <span class="filled"></span>
+                        <span class="filled"></span>
+                        <span class="half-filled"></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="lang-text" data-en="JavaScript" data-ru="JavaScript">JavaScript</h3>
+                    <div class="skill-bar">
+                        <span class="filled"></span>
+                        <span class="filled"></span>
+                        <span class="half-filled"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="lang-text" data-en="Python & Django" data-ru="Python и Django">Python & Django</h3>
+                    <div class="skill-bar">
+                        <span class="filled"></span>
+                        <span class="filled"></span>
+                        <span class="filled"></span>
+                        <span class="half-filled"></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="lang-text" data-en="Git & GitHub" data-ru="Git и GitHub">Git & GitHub</h3>
+                    <div class="skill-bar">
+                        <span class="filled"></span>
+                        <span class="filled"></span>
+                        <span class="half-filled"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2 class="lang-text" data-en="Contact me" data-ru="Связаться со мной">Contact me</h2>
+                <form action="#" method="post">
+                    <label for="name" class="lang-text" data-en="Full name" data-ru="Полное имя">Full name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone" class="lang-text" data-en="Phone number" data-ru="Номер телефона">Phone number</label>
+                    <input type="text" id="phone" name="phone" required>
+                    <label for="email" class="lang-text" data-en="E-mail" data-ru="Электронная почта">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message" class="lang-text" data-en="Your message" data-ru="Ваше сообщение">Your message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit" class="send-btn lang-text" data-en="SEND" data-ru="ОТПРАВИТЬ">SEND</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2 class="lang-text" data-en="Contact Me" data-ru="Связаться со мной">Contact Me</h2>
+                <p class="lang-text" data-en="If you have any questions about my work, my projects, or services I provide, feel free to get in touch with me." data-ru="Если у вас есть вопросы о моей работе, проектах или услугах, которые я предоставляю, не стесняйтесь связаться со мной.">If you have any questions about my work, my projects, or services I provide, feel free to get in touch with me.</p>
+                <p>📞 +7 (776) 272 9215</p>
+                <p>📧 ibragimzaurbekov701@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    
+    <div class="cursor-follow"></div>
+</body>
+</html>
